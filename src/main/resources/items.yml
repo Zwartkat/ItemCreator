@@ -1,0 +1,50 @@
+items:
+  sword_of_speed:
+    material: DIAMOND_SWORD
+    name: "<#084CFB>&lÉpée de la Vitesse</#88bc0a>"
+    durability: 300
+    lore:
+      - "&d&lUne épée avec des pouvoirs magiques."
+      - "&7Elle brille d'une lueur mystérieuse."
+      - "<#A31243>%durability%/%max_durability%</#A2A2A2>"
+    effects:
+      give_effect :
+        type: DAMAGE # Click or damage
+        effect: SPEED
+        amplifier: 1
+        time : 5
+  sword_of_glowing:
+    material: NETHERITE_SWORD
+    name: "<#084CFB>&lÉpée de la Luisance</#88bc0a>"
+    durability: 300
+    lore:
+      - "&d&lUne épée avec des pouvoirs magiques."
+      - "&7Elle brille d'une lueur mystérieuse."
+      - "<#A31243>%durability%/%max_durability%</#A2A2A2>"
+    effects:
+      give_effect :
+        type: DAMAGE # Click or damage
+        effect: GLOWING
+        amplifier: 1
+        time : 5
+
+  bow_of_the_phoenix:
+    material: BOW
+    durability: null
+    name: "&cArc du Phénix"
+    lore:
+      - "&7Cet arc tire des flèches enflammées."
+  shield_of_justice:
+    material: SHIELD
+    name: "&aBouclier de la Justice"
+    durability: 1
+    lore:
+      - "&7Ce bouclier protège contre toutes les attaques."
+      - "%durability%/%max_durability%"
+
+  shield_justice:
+    material: SHIELD
+    durability: null
+    name: "&aBouclier du Jus"
+    lore:
+      - "&7Ce bouclier protège contre toutes les attaques."

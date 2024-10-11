@@ -1,0 +1,9 @@
+name: ItemCreator
+version: '${version}'
+main: fr.zwartkat.itemcreator.ItemCreator
+api-version: '1.20'
+softdepend: [WorldGuard,SuperiorSkyblock2]
+commands:
+  itemcreator :
+    description: 'commande de vanish'
+    aliases: 'itc'

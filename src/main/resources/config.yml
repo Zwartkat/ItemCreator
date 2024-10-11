@@ -1,0 +1,5 @@
+reload: "&aThe plugin is reloaded"
+
+receive_item: "<#084CFB>You received</#ADF3FD> %amount%x <#34AE23>%item_name%"
+give_item: "You give %amount%x %item_name%&r to &a%player%"
+no_durability: "&cThere is no more durability on these item, you can't use it"
